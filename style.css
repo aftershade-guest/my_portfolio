@@ -1,0 +1,88 @@
+.left-content {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.content {
+    float: left;
+}
+
+.content p {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.main {
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    padding: 0px 10px;
+    margin-left: 5px;
+}
+
+._header {
+    width: 100%;
+    height: 3rem;
+    background-color: #e9e9e9;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+
+}
+
+.container {
+    height: 100%;
+    margin-top: 50px;
+}
+
+#searchbox {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 0.5rem;
+    height: 60%;
+    padding: .5rem 0 .5rem .5rem;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+
+
+.main img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width:300px) {
+    .main img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .main {
+        width: 80%;
+        padding: 0;
+      }
+      .right {
+        width: 100%;
+      }
+      
+}
+
+@media only screen and (max-width:800px) {
+.left-content, .main {
+    width: 100%;
+}
+
+.main {
+    margin-left: 0px;
+    padding: 0px;
+}
+}
